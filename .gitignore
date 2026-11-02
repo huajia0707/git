@@ -1,0 +1,52 @@
+# ---- 操作系统 ----
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# ---- 编辑器 / IDE ----
+.vscode/
+.idea/
+*.swp
+*~
+
+# ---- 通用编译产物 ----
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dll
+*.exe
+*.hex
+*.bin
+*.elf
+*.map
+*.lst
+
+# ---- STM32CubeMX / Keil MDK ----
+# CubeMX 生成的初始化代码建议入库，故只忽略其备份与临时文件
+*.ioc.bak
+*.bak
+# Keil 工程输出目录
+Objects/
+Listings/
+Output/
+DebugConfig/
+RTE/_*/
+*.uvguix.*
+*.uvoptx
+*.uvguix
+*.scvd
+*.dep
+*.crf
+*.d
+*.lnp
+*.htm
+*.sct
+*.iex
+*.build_log.htm
+# 重新生成即可还原的库文件（视个人习惯可放开）
+# Drivers/CMSIS/
+# Drivers/STM32F1xx_HAL_Driver/
