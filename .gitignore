@@ -8,6 +8,8 @@ $RECYCLE.BIN/
 # ---- 编辑器 / IDE ----
 .vscode/
 .idea/
+.workbuddy/
+.claude/
 *.swp
 *~
 
